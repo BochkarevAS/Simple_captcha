@@ -9,7 +9,7 @@ CREATE TABLE public.tree
 --------------------
 
 INSERT INTO public.tree(description, parent)
-    VALUES
+    VALUES (
             (1, 0),
             (2, 1),
             (3, 2),
@@ -17,7 +17,8 @@ INSERT INTO public.tree(description, parent)
             (5, 4),
             (6, 0),
             (7, 6),
-            (8, 7),
+            (8, 7)
+    );
 
 --------------------
 
