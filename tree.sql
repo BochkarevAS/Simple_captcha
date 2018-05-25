@@ -4,7 +4,7 @@ CREATE TABLE public.tree
   description integer,
   parent integer,
   CONSTRAINT tree_pkey PRIMARY KEY (id)
-)
+);
 
 --------------------
 
